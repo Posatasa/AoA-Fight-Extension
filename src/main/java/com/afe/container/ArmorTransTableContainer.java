@@ -1,9 +1,9 @@
-package com.convtable.container;
+package com.afe.container;
 
-import com.convtable.ArmorTransformer;
-import com.convtable.ModBlocks;
-import com.convtable.ModContainers;
-import com.convtable.tile.ArmorTransTableTile;
+import com.afe.ArmorTransformer;
+import com.afe.ModBlocks;
+import com.afe.ModContainers;
+import com.afe.tile.ArmorTransTableTile;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.container.Container;

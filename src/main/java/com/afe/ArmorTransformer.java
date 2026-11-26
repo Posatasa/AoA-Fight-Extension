@@ -1,4 +1,4 @@
-package com.convtable;
+package com.afe;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

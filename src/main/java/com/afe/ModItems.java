@@ -1,4 +1,4 @@
-package com.convtable;
+package com.afe;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -10,10 +10,10 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public final class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, ConvTable.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, Afe.MOD_ID);
 
     /** Dedicated creative tab for this mod, with the table itself as the icon. */
-    public static final ItemGroup TAB = new ItemGroup("convtable") {
+    public static final ItemGroup TAB = new ItemGroup("afe") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.ARMOR_TRANS_TABLE.get());

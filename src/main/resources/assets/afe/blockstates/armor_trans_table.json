@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "afe:block/armor_trans_table" },
+    "facing=east": { "model": "afe:block/armor_trans_table", "y": 90 },
+    "facing=south": { "model": "afe:block/armor_trans_table", "y": 180 },
+    "facing=west": { "model": "afe:block/armor_trans_table", "y": 270 }
+  }
+}

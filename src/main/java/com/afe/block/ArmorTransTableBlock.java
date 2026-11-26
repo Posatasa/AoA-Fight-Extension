@@ -1,6 +1,6 @@
-package com.convtable.block;
+package com.afe.block;
 
-import com.convtable.tile.ArmorTransTableTile;
+import com.afe.tile.ArmorTransTableTile;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalBlock;

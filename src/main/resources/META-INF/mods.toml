@@ -8,13 +8,9 @@ version="${version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
 description='''
-Armor Trans Table add-on for Advent of Ascension 3 (Minecraft 1.16.5, AoA 3.6.11).
+AoA Fight Extension - an add-on for Advent of Ascension 3 (Minecraft 1.16.5, AoA3 3.6.11).
 
-Put a piece of AoA3 armor in the input slot to convert it into another piece of
-the same armor set. Enchantments are preserved and durability is scaled proportionally.
-
-Special standalone headgear (Night Vision Goggles, skill helmets and the three
-underwater/diving headpieces) cannot be converted.
+Features are added incrementally; this build includes the Armor Trans Table.
 '''
 
 [[dependencies.${mod_id}]]

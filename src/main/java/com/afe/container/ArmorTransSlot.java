@@ -1,4 +1,4 @@
-package com.convtable.container;
+package com.afe.container;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
@@ -36,7 +36,7 @@ public class ArmorTransSlot extends SlotItemHandler {
 
     @Override
     public boolean mayPlace(ItemStack stack) {
-        return input && com.convtable.ArmorTransformer.getArmorSet(stack) != null;
+        return input && com.afe.ArmorTransformer.getArmorSet(stack) != null;
     }
 
     @Override

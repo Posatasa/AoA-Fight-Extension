@@ -1,8 +1,8 @@
-package com.convtable.tile;
+package com.afe.tile;
 
-import com.convtable.ArmorTransformer;
-import com.convtable.ModTileEntities;
-import com.convtable.container.ArmorTransTableContainer;
+import com.afe.ArmorTransformer;
+import com.afe.ModTileEntities;
+import com.afe.container.ArmorTransTableContainer;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -76,7 +76,7 @@ public class ArmorTransTableTile extends TileEntity implements INamedContainerPr
 
     @Override
     public ITextComponent getDisplayName() {
-        return new TranslationTextComponent("gui.convtable.armor_trans_table");
+        return new TranslationTextComponent("gui.afe.armor_trans_table");
     }
 
     @Override

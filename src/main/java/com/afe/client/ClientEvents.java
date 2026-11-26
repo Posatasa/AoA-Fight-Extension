@@ -1,15 +1,15 @@
-package com.convtable.client;
+package com.afe.client;
 
-import com.convtable.ConvTable;
-import com.convtable.ModContainers;
-import com.convtable.client.screen.ArmorTransTableScreen;
+import com.afe.Afe;
+import com.afe.ModContainers;
+import com.afe.client.screen.ArmorTransTableScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
-@Mod.EventBusSubscriber(modid = ConvTable.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+@Mod.EventBusSubscriber(modid = Afe.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public final class ClientEvents {
     private ClientEvents() {
     }

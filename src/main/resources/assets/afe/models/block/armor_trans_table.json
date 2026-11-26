@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "afe:block/armor_trans_table_front",
+    "down": "afe:block/armor_trans_table_bottom",
+    "up": "afe:block/armor_trans_table_top",
+    "north": "afe:block/armor_trans_table_front",
+    "south": "afe:block/armor_trans_table_side",
+    "west": "afe:block/armor_trans_table_side",
+    "east": "afe:block/armor_trans_table_side"
+  }
+}

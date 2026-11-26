@@ -1,6 +1,6 @@
-package com.convtable;
+package com.afe;
 
-import com.convtable.block.ArmorTransTableBlock;
+import com.afe.block.ArmorTransTableBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public final class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, ConvTable.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, Afe.MOD_ID);
 
     public static final RegistryObject<Block> ARMOR_TRANS_TABLE = BLOCKS.register("armor_trans_table",
             () -> new ArmorTransTableBlock(Block.Properties.of(Material.METAL)

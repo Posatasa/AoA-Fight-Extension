@@ -1,13 +1,13 @@
-package com.convtable;
+package com.afe;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-@Mod(ConvTable.MOD_ID)
-public final class ConvTable {
-    public static final String MOD_ID = "convtable";
+@Mod(Afe.MOD_ID)
+public final class Afe {
+    public static final String MOD_ID = "afe";
 
-    public ConvTable() {
+    public Afe() {
         ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModTileEntities.TILES.register(FMLJavaModLoadingContext.get().getModEventBus());

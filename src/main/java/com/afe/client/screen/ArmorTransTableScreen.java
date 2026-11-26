@@ -1,8 +1,8 @@
-package com.convtable.client.screen;
+package com.afe.client.screen;
 
-import com.convtable.ConvTable;
-import com.convtable.container.ArmorTransSlot;
-import com.convtable.container.ArmorTransTableContainer;
+import com.afe.Afe;
+import com.afe.container.ArmorTransSlot;
+import com.afe.container.ArmorTransTableContainer;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
@@ -14,7 +14,7 @@ import net.minecraft.util.text.ITextComponent;
 
 public class ArmorTransTableScreen extends ContainerScreen<ArmorTransTableContainer> {
     private static final ResourceLocation TEXTURE =
-            new ResourceLocation(ConvTable.MOD_ID, "textures/gui/armor_trans_table.png");
+            new ResourceLocation(Afe.MOD_ID, "textures/gui/armor_trans_table.png");
 
     private static final int TEXTURE_W = 215;
     private static final int TEXTURE_H = 252;
