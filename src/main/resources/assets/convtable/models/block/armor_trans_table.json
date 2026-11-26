@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "convtable:block/armor_trans_table_front",
+    "down": "convtable:block/armor_trans_table_bottom",
+    "up": "convtable:block/armor_trans_table_top",
+    "north": "convtable:block/armor_trans_table_front",
+    "south": "convtable:block/armor_trans_table_side",
+    "west": "convtable:block/armor_trans_table_side",
+    "east": "convtable:block/armor_trans_table_side"
+  }
+}

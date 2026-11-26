@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+description='''
+Armor Trans Table add-on for Advent of Ascension 3 (Minecraft 1.16.5, AoA 3.6.11).
+
+Put a piece of AoA3 armor in the input slot to convert it into another piece of
+the same armor set. Enchantments are preserved and durability is scaled proportionally.
+
+Special standalone headgear (Night Vision Goggles, skill helmets and the three
+underwater/diving headpieces) cannot be converted.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="aoa3"
+    mandatory=true
+    # AoA versions the whole mod: "1.16.5-3.6.11". A "[3.6.11,)" range never matches
+    # because component-wise comparison sees the leading "1.16.5" and sorts below "3".
+    versionRange="[1.16.5-3.6.11,)"
+    ordering="AFTER"
+    side="BOTH"
